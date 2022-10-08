@@ -118,7 +118,10 @@ ggplot(data=DailyActivity)+
     theme(plot.title = element_text(hjust=0.5))
 ```
 
+![Total_Steps_Vs_Calories_Graph](https://user-images.githubusercontent.com/114845059/194724635-bd6a4572-7642-4682-870a-ea3ffd4028d8.jpg) ![image](https://user-images.githubusercontent.com/114845059/194724685-f5b557e6-79f1-4154-8f05-970f25349e4a.png)
+
 A **positive trend** appears on the graph as the total steps that the individual took to reach their personal goals the more calories they burned. There are outliers on the graph but they could have been different reasons why they still lost many calories without taking any steps at all. For example, their are exercises that don't require taking steps like yoga or body building. Their also seems to be a cut off on the amount of calories that can be burned throughout the day which would be right under 4,000 calories. 
+
 
 #Total Intensity Vs. Time
     
@@ -130,7 +133,9 @@ ggplot(data=Intensities, aes(x=time, y=TotalIntensity))+
   theme(plot.title = element_text(hjust=0.5))
 ```
 The **highest usage rate** for the fitness device was during 12pm (noon) and 5pm to 7pm. It lets us know that the consumer focuses on physical activity either in between their work breaks and/or right after a 9-5 job. 
-     
+
+![total_intensity_vs_time](https://user-images.githubusercontent.com/114845059/194724630-c8e57bd3-6bf2-4e22-8d49-badba3d0a3b2.jpg)![image](https://user-images.githubusercontent.com/114845059/194724689-c73e2ca1-83b1-4bb3-8119-7ccd6616627c.png)
+
 #Time Minutes Asleep Vs. Total Steps 
      
 ```{r}
@@ -140,7 +145,11 @@ ggplot(data=sleep_vs_activity)+
   labs(title = "Time Minutes Asleep vs. Sedentary Minutes")+
   theme(plot.title = element_text(hjust=0.5))
 ```
+
+![Total_Minutes_Asleep_vs_Total_Steps copy](https://user-images.githubusercontent.com/114845059/194724643-be92f9af-0233-473d-81f1-2a54d3d9d1fd.jpg) ![image](https://user-images.githubusercontent.com/114845059/194724696-db87a697-1c50-4003-857c-1a84e2c23ea3.png)
+
 There is a **negative trend** happening on the graph meaning that the less active you are throughout the day the less time the body gets rest and proper sleep. The more time you are in a sedentary state the less you sleep. The difference in range is from the least active individual getting 50 minutes of sleep while those who had a lot of physical activity would sleep up to 13.33 hours. 
+
 
 ## Analysis
 
