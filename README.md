@@ -105,7 +105,7 @@ sleep_vs_activity <- merge(Sleep, DailyActivity, by = c("Id","date"))
 head(sleep_vs_activity)
 ```
 ## Visualization
-```{r}
+
 #Total Steps Vs. Calories
 
 ```{r}
